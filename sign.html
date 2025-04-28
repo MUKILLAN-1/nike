@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <style>
+        .form{
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #0b0b0b;
+            background-color: #f0f8ff;
+            border-radius: 10px;
+            margin-top: 100px;
+            font-family: Arial, sans-serif;
+        }
+        .label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .input{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #0f0f0f;
+            padding: 5px;
+        }
+        .button{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid #0b0b0b;
+            background-color: #080808;
+            cursor: pointer;
+            color: white;
+        }
+        .button:hover{
+            background-color: #eef0f3;
+        }
+        .button:active{
+            background-color: #f1f5fb;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <label class="label">Username:</label><br>
+        <input class="input" type="text" name="username" placeholder="Enter your username"><br><br> 
+        <label class="label">Password:</label><br>
+        <input class="input" type="password" name="password" placeholder="Enter your password"><br><br>
+        <label class="label">Email:</label><br>
+        <input class="input" type="email" name="email" placeholder="Enter your email"><br><br>
+        <label class="label">Phone:</label><br>
+        <input class="input" type="text" name="phone" placeholder="Enter your phone"><br><br>
+        <label class="label">Address:</label><br>
+        <input class="input" type="text" name="address" placeholder="Enter your address"><br><br>
+        <input class="button" type="submit" value="Sign Up">
+        <br><br>
+        <input class="button" type="reset" value="Reset">
+
+    </form>
+</body>
+</html>
